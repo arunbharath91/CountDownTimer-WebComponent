@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Building a repeater</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="theme-color" content="#2c58ed" />
+      <meta name="description" content="webcomponents countdowntimer_demo by Arun Bharath" />
+      <meta name="keywords" content= "webcomponents countdowntimer_demo by arun bharath" />
+      <meta name="author" content="Arun Bharath">
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+      <style>
+         app-timer{display: contents;}
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <app-timer shadow="false" class="row" time="Jan 5, 2021 15:37:25">
+
+         </app-timer>
+
+      </div>
+<button onclick="g()">send</button>
+<script>
+   function g() {
+      alert()
+   document.querySelector('app-timer').setAttribute('time', "Jan 5, 3025 15:37:25")
+   }
+</script>
+   </body>
+</html>
