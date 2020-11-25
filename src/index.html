@@ -34,8 +34,9 @@
 <button onclick="g()">Update time</button>
 <script>
    function g() {
-      alert()
-   document.querySelector('app-timer').setAttribute('time', "Jan 5, 3025 15:37:25")
+    if(confirm('Are you sure to update')){
+      document.querySelector('app-timer').setAttribute('time', "Jan 5, 3025 15:37:25")
+    }
    }
 </script>
    </body>
