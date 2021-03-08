@@ -7,7 +7,8 @@
   position: relative;
 }
 .timer-amount  {
-  min-width: 50px;
+  min-width: auto;
+  padding: 2px 15px;
   min-height: 50px;
   display: flex;
   align-items: center;
@@ -17,7 +18,7 @@
   font-weight: 500;
   position: relative;
   border: 1px solid #e4e4e4;
-  border-radius: 100%;
+  border-radius: 50px;
 }
 .timer-period {
   font-size: 18px;
